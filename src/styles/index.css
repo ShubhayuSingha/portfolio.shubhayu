@@ -1,0 +1,59 @@
+/* index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles can go here */
+body {
+  @apply font-sans bg-gray-100 text-gray-800; /* Apply Tailwind's base font and background */
+}
+
+/* You can add more global styles if necessary */
+
+.perspective {
+  perspective: 1000px;
+}
+
+.transform-style-preserve {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* globals.css */
+.nav-link {
+  position: relative;
+  display: inline-block; /* Allows padding and centering */
+}
+
+.nav-link:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: #c80808; /* Yellow color for highlight */
+  opacity: 0; /* Start hidden */
+  transition: opacity 0.3s ease-in-out; /* Fade effect */
+  z-index: -1; /* Send it behind the text */
+  border-radius: 12px;
+}
+
+.nav-link.active:before {
+  opacity: 1; /* Show highlight when active */
+}
+
+.nav-link:hover:before {
+  opacity: 1; /* Optional: show hover effect */
+}
+
+
+

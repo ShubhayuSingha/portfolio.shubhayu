@@ -1,0 +1,30 @@
+/* App.css */
+
+/* Example of resetting margins and paddings globally */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding and border are included in total width and height */
+}
+
+/* Global styles for headings */
+h1 {
+  font-size: 2.25rem; /* Equivalent to text-4xl in Tailwind */
+}
+
+h2 {
+  font-size: 1.875rem; /* Equivalent to text-3xl in Tailwind */
+}
+
+h3 {
+  font-size: 1.5rem; /* Equivalent to text-2xl in Tailwind */
+}
+
+/* Custom styles for the links in the navbar */
+nav a {
+  color: white; /* Set link color in the navbar */
+}
+
+nav a:hover {
+  color: yellow; /* Change link color on hover */
+}
