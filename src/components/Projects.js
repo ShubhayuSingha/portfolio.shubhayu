@@ -10,7 +10,7 @@ const projects = [
 
 The most challenging sections were: "See Previous Visitors" and "Play Hangman." 
 
-Visit it at <a href="https://github.com/ShubhayuSingha/shubhayu" target="_blank" style="color: blue">shubhayu.onrender.com</a>
+Visit it at <a href="https:shubhayu.onrender.com" target="_blank" style="color: blue">shubhayu.onrender.com</a>
 (If the website fails to load within a few seconds, wait a few moments. The free tier hosting of render shuts the website off sometimes.)
 
 If you want to see the technical stuffs, check out - 
