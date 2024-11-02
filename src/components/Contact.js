@@ -16,7 +16,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Replace "YOUR_FORM_ENDPOINT" with your actual Getform endpoint URL
-    fetch('https://getform.io/f/bdrrrllb', {
+    fetch('https://getform.io/f/bpjjjedb', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData),
