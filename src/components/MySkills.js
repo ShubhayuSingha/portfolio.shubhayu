@@ -85,7 +85,7 @@ const skills = [
 
 const MySkills = () => {
   return (
-    <section id="about" className="py-20 bg-gradient-to-r from-green-200 to-green-600">
+    <section id="about" className="py-20 bg-gradient-to-r from-slate-800 to-slate-900">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8 font-roboto"><span className="bg-pink-200 p-2 rounded-md shadow-md">MY SKILLS</span></h2>
         <div className="flex flex-wrap justify-center">
