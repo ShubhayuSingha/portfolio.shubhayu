@@ -33,7 +33,7 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="h-screen flex flex-col items-center justify-center bg-gradient-to-r from-orange-300 to-red-600 text-gray-800">
+    <section id="contact" className="h-screen flex flex-col items-center justify-center bg-gradient-to-r from-slate-800 to-slate-900 text-gray-800">
       <h2 className="text-3xl font-bold font-roboto mb-8"><span className="bg-pink-200 p-2 rounded-md shadow-md">CONTACT ME</span></h2>
       <form onSubmit={handleSubmit} className="mt-4 flex flex-col gap-4 w-4/5 md:w-1/2">
         <input
