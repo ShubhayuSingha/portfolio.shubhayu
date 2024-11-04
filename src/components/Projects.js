@@ -54,7 +54,7 @@ function Projects() {
   }, [selectedProject]);
 
   return (
-    <section id="projects" className="min-h-screen py-20 bg-gradient-to-r from-yellow-200 to-yellow-600 flex flex-col items-center justify-center">
+    <section id="projects" className="min-h-screen py-20 bg-gradient-to-r from-slate-800 to-slate-900 flex flex-col items-center justify-center">
       <h2 className="text-3xl font-bold font-roboto text-center mb-8">
         <span className="bg-pink-200 p-2 rounded-md shadow-md">PROJECTS</span>
       </h2>
