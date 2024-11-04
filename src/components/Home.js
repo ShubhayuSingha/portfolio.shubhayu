@@ -6,7 +6,7 @@ function Home() {
   return (
     <section 
       id="home" 
-      className="h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-600 to-red-600 text-white text-center overflow-hidden"
+      className="h-screen flex flex-col items-center justify-center bg-gradient-to-r from-slate-800 to-slate-900 text-white text-center overflow-hidden"
     >
       <h1 className="text-5xl font-poppins md:text-6xl lg:text-7xl break-words">
         Hello! It's <br />
