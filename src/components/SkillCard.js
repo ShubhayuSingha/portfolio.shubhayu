@@ -22,7 +22,7 @@ const SkillCard = ({ skill }) => {
         </div>
 
         {/* Back Side */}
-        <div className="absolute inset-0 w-full h-full flex items-center justify-center bg-gray-800 text-white border rounded-lg shadow-lg rotate-y-180 backface-hidden">
+        <div className="absolute inset-0 w-full h-full flex items-center justify-center bg-pink-600 text-white border rounded-lg shadow-lg rotate-y-180 backface-hidden">
           <p className="text-center p-4 font-poppins">{skill.description}</p>
         </div>
       </div>
