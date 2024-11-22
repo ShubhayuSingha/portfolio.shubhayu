@@ -4,7 +4,7 @@ function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    rating: 1,
+    rating: 5, // Set default rating to 5
     message: ''
   });
 
@@ -24,7 +24,7 @@ function Contact() {
       .then((response) => {
         if (response.ok) {
           alert('Your message has been sent successfully!');
-          setFormData({ name: '', email: '', rating: 1, message: '' });
+          setFormData({ name: '', email: '', rating: 5, message: '' }); // Reset rating to 5 after submit
         } else {
           alert('Oops! Something went wrong.');
         }
